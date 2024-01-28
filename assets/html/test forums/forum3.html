@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forum de Discussion</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #1c74cc;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    #forum-container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .forum-category {
+      border-bottom: 2px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .category-title {
+      font-size: 1.5em;
+      margin-bottom: 5px;
+      color: #1c74cc;
+    }
+
+    .forum-post {
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .post-title {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      color: #1c74cc;
+    }
+
+    .post-content {
+      color: #555;
+    }
+
+    /* Section Commentaires */
+    .comments-section {
+      margin-top: 20px;
+    }
+
+    .comment {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .btt a{
+      text-decoration: none;
+    }
+    .btt a:visited{
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Forum de Discussion</h1>
+  </header>
+
+  <div id="forum-container">
+    <!-- Catégorie 1: Intimité et Relation -->
+    <div class="forum-category">
+      <h2 class="category-title"><a >Bien étre mental </a></h2>
+      <div class="forum-post">
+        <p class="post-content">Un espace dédié à la santé mentale où vous trouverez du soutien, des conseils et des
+          discussions sur le bien-être émotionnel. Explorez des stratégies pour cultiver une vie mentalement équilibrée.
+        </p>
+      </div>
+      <!-- Section Commentaires -->
+      <div class="comments-section">
+        <h4>Commentaires</h4>
+        <div class="comment">
+          <p>Donnez un avis aléatoire concernant le Bien étre mental.</p>
+        </div>
+        <div class="comment">
+          <p>Proposez une idée générale concernant le Bien étre mental .</p>
+        </div>
+        <!-- Formulaire pour Ajouter un Commentaire -->
+        <form>
+          <label for="comment">Ajouter un Commentaire :</label>
+          <br>
+          <textarea id="comment" name="comment" rows="3"></textarea><br>
+          <button type="submit" style="background-color: #1c74cc; color: #fff;">Envoyer</button>
+          <button type="submit" class="btt" style="background-color: #1c74cc; color: #fff;"><a href="forum_index.html">Retour</a></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
